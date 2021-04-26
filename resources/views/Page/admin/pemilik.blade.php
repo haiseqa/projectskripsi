@@ -49,21 +49,21 @@
      //Default data table
     //   $('#default-datatable').DataTable();
 
-    //   $('.#btnHapus').on('click',function(event){
-    //       event.preventDefault();
-    //       let form = $(".formdelete");
-    //       swal({
-    //           title: "hapus?",
-    //           text: "hapus pemilik villa",
-    //           icon: "warning",
-    //           buttons:true,
-    //           dangerMode:true
-    //       }).then((value)=>{
-    //           if (value) {
-    //             form.submit();
-    //           }
-    //       });
-    //   });
+      $('.#btnHapus').on('click',function(event){
+          event.preventDefault();
+          let form = $(".formdelete");
+          swal({
+              title: "hapus?",
+              text: "hapus pemilik villa",
+              icon: "warning",
+              buttons:true,
+              dangerMode:true
+          }).then((value)=>{
+              if (value) {
+                form.submit();
+              }
+          });
+      });
 
 
 
